@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+
+.main-outer {
+    width: 100%;
+    height: 700px;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-link-component {
+    width: 375px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:15px;
+}
+
+.social-link-component-top {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.social-link-component-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+    
+    
+}
+
+.social-link-component-top img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    /* 
+    margin-bottom:100px; */
+}
+
+.social-link-component-top h5 {
+    margin-top: 4px;
+    color: hsl(75, 94%, 57%);
+
+}
+.social-link-component-top p{
+    font-size: 14px;
+    color:white;
+    margin-bottom: -8px;
+    
+}
+.social-link-component-top h2{
+    color: white;
+    font-weight: 400;
+    
+}
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFF;
+    /* font-size: 20px; */
+    background: #333333;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 330px;
+}
+
+.btn:hover {
+    background: #c4f82a;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+
+}
